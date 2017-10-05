@@ -1,5 +1,6 @@
 FROM golang:latest
 
+RUN apt-get update
 RUN apt-get install -y curl unzip git ssh tar ca-certificates
 
 RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
