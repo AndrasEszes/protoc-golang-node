@@ -12,3 +12,5 @@ RUN mv protoc-3.4.0/bin/protoc /usr/bin
 RUN wget -nv https://github.com/github/hub/releases/download/v2.3.0-pre10/hub-linux-amd64-2.3.0-pre10.tgz
 RUN tar -xzf hub-linux-amd64-2.3.0-pre10.tgz
 RUN hub-linux-amd64-2.3.0-pre10/install
+
+RUN curl -sL https://glide.sh/get | bash -

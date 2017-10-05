@@ -7,3 +7,4 @@
 - npm
 - protoc
 - hub
+- glide
