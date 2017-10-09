@@ -14,3 +14,8 @@ RUN tar -xzf hub-linux-amd64-2.3.0-pre10.tgz
 RUN hub-linux-amd64-2.3.0-pre10/install
 
 RUN curl -sL https://glide.sh/get | bash -
+
+RUN go version
+RUN node --version
+RUN npm --version
+RUN protoc --version
